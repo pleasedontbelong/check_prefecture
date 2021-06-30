@@ -1,0 +1,5 @@
+black
+beautifulsoup4
+ipdb
+requests
+mailjet_rest
