@@ -70,11 +70,13 @@ def get_options():
 
 
 def run():
-    options_count = None
+    options_count = False
     while True:
         try:
             current_count = get_options()
             if options_count is None:
+                pass
+            elif not options_count:
                 options_count = current_count
             elif current_count:
                 if current_count != options_count:
